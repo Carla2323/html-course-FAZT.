@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--la etiqueta "!DOCTYPE" indica que es un doc de html, el signo "!" es para decirle que la etiqueta debe tener una propiedad (en este caso html) --> 
+
+<html lang="es"> 
+    <!--atributo "lang" = lenguaje-->
+
+    <head>
+        <title>
+            html course
+        </title>
+        <!--la etiqueta "tittle" es para la pestaña-->
+        <meta />
+        <!--la etiqueta "meta" no se ve en la página web, sirve para darle info. al programa, particularidad de esta etiqueta: no tiene cierre (</>) porque adentro no se coloca contenido, se pone para utilizar sus atributos:
+            name: lo que pondremos en el content (descripcion de la pag, nombre del autor, keywords del sitio, utf-8:es la codificación de caracteres)
+             content: muestra lo que pide el name-->
+    </head>
+    <!--etiqueta "head" = cabeza (pestaña)-->
+
+    <body> 
+        <header>
+            <h1>Título del Texto</h1> 
+
+            <h2>Subtítulo del texto</h2>
+
+            <h3>subtitulo 2</h3>
+
+            <h4>subtitulo 3</h4>
+
+            <h5>subtitulo 4</h5>
+
+            <h6>subtitulo 5</h6>
+            <!--la etiqueta "h1-6" es para titulos y subtitulos, cuanto mas grande el numero, mas se achica la letra-->
+        </header>
+
+        <P>mi primer párrafo de html.</P>
+        <!--la etiqueta "p" es para parrafos-->
+
+        <nav>
+            <ul>
+                <li>principal</li>
+                <li>ayuda</li>
+                <li>contacto</li>
+                <!--etiqueta "li" = item de la lista. sirve para colocar un item de ul -->
+                
+            </ul>
+            <!--etiqueta "ul" = lista desordenada. determina que los items de la li pertenecen a una misma lista (los p0ondria uno abajo del otro)-->
+
+            <ul>
+                <li>principal 1</li>
+                <li>ayuda 1</li>
+                <li>contacto 1</li>
+                
+            </ul>
+            <!--esta ul apareceria separada de la anterior, como otra lista que no tiene nada que ver-->
+        </nav>
+     <!--etiqueta "nav" = navegación. proporciona elementos de navegación-->
+
+        <section>
+            <article>
+                <hgroup>
+                    <h1>titulo primer articulo</h1>
+                <h2>subtitulo del primer articulo</h2>
+                </hgroup>
+                <!--etiqueta "hgroup", sirve para agrupar encabezados cuando hay muchos h1 o titulos, para darle menos gerarquia que al h1 del titulo-->
+                <time datetime="12-10-2018">publicado 12-10-2018</time>
+                <p>Lorem, ipsum dolor.</p>
+                <!--"lorem" sirve para rellenar texto, es un ejemplo para cuanbdo queremos ver la estructura de nuestra pagina web pero todavia no tenemos idea exacta sobre que va a ir en cada lugar, podemos elegir la longitud del texto indicando luego de la pakabra "lorem" el num de palabras que queramos, recien pusimos "lorem3" -->
+                <img src="img/Gladys Lita y Alberto Cumpleaños 80.jpg"/>
+                <!--el atributo source o src nos dice de donde se va a sacar la imagen-->
+                <footer>
+                    <p>Comentarios 10</p>
+                </footer>
+                <address>
+                    <a href="http://google.com">"visita a google"</a>
+                <!--etiqueta "a" tiene un atributo llamado "href" va dentro del ">", luego del "=" colocamos el sitio a donde queremos que nos lleve(esto no lo ve el usuario). dentro de la etiqueta a escribimos lo que queremos que si vea el usuario-->
+                </address>
+                <!--etiqueta "adress", igual que etiqueta a solo que avisa que es una dirección de internet -->
+            </article>
+            <article>
+                <hgroup>
+                    <h1>titulo segundo articulo</h1>
+                    <h2>subtitulo del segundo articulo</h2>
+                </hgroup>
+                <time datetime="13-10-2018">publicado 13-10-2018</time>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <footer>
+                    <p>Comentarios 0</p>
+                </footer>
+                <!--pie de página del articulo-->
+            </article>
+            <!--etiqueta "article" = artículo sirve para detallar contenido repetitivo. tiene caracteristicas como fecha, titulo y párrafo-->
+
+        </section>
+        <!--etiqueta "section". sirve para colocar el contenido principal-->
+
+        <aside>
+            Archivo
+
+            Acerca de
+            <blockquote cite="http://faztweb.com">citas de autores</blockquote>
+            <!--etiqueta "blockquote". sirve para incluir citas de autores o libros, "cite=" para aclarar de donde proviene la cita si es de un sitio web-->
+        </aside>
+        <!--la etiqueta "aside" es para colocar contenido relacionado pero que no es parte de lo principal, va al costado-->
+
+        <footer>
+            Derechos reservados 2010-2018
+        </footer>
+        <!--etiqueta "footer" = pie de pagina-->
+
+    </body>
+    <!--etiqueta "body" = cuerpo de la página-->
+
+
+
+</html>
+<!--las etiquetas "html" tienen atributos-->
+
+
+
